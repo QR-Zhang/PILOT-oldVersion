@@ -289,7 +289,25 @@
       </video>
       <!-- TODO: Replace with your video description -->
       <h2 class="subtitle has-text-centered">
-        Aliquam vitae elit ullamcorper tellus egestas pellentesque. Ut lacus tellus, maximus vel lectus at, placerat pretium mi. Maecenas dignissim tincidunt vestibulum. Sed consequat hendrerit nisl ut maximus. 
+        Autonomous navigation in unknown cluttered environments remains a challenge for vision-based 
+        unmanned aerial vehicles (UAVs), particularly under limited onboard resources. In this paper, 
+        we present PILOT, a privileged imitation learning algorithm for vision-based end-to-end UAV 
+        motion planning in cluttered, unstructured, and congested environments. A model predictive 
+        control (MPC) expert with access to privileged information is introduced to generate collision-free 
+        demonstration trajectories that guide the learning process of PILOT. A temporal convolutional 
+        network (TCN) is used to implicitly reconstruct all unobservable privileged information by fusing 
+        sequential visual observations and historical velocity measurements. The TCN module enables a UAV 
+        to achieve extended spatial awareness beyond immediate visual perception, thereby enhancing the 
+        generalization capability of the learned planner. A trajectory parameterization technique is further 
+        introduced to improve motion smoothness and ensure satisfaction of UAV dynamic constraints. The 
+        proposed PILOT framework is thoroughly evaluated through extensive numerical simulations and diverse 
+        real-world experiments. The evaluation results demonstrate that the planner learned by PILOT achieves 
+        consistent performance comparable to the MPC expert with a significant reduction computation time by 
+        more than 80%  across diverse environments and different UAV platforms. Ablation studies have illustrated 
+        the efficiency of both the TCN and the trajectory parameterization modules. Real-world tests on a 
+        custom-built quadrotor have corroborated that the learned motion planner can generate feasible, 
+        collision-free trajectories in real time directly using noisy visual observations. Both simulations 
+        and experimental results have confirmed PILOT’s capability of strong generalization to previously unseen environments. 
       </h2>
     </div>
   </div>
