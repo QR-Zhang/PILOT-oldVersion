@@ -278,7 +278,45 @@
   </div>
 </section>
 
-
+  <!-- Video and slider Example-->
+ [Video](https://getuikit.com/docs/video) and [Slider](https://getuikit.com/docs/slider) component example
+      <div uk-slider>
+        <div class="uk-slider-items uk-grid-small uk-child-width-1-1 uk-child-width-1-2@m uk-grid">
+          <div>
+            <video
+              src="https://yootheme.com/site/images/media/yootheme-pro.mp4"
+              loop
+              muted
+              uk-video="autoplay:inview"
+              />
+             <!-- TODO: Replace with your video description -->
+          <h2 class="subtitle has-text-centered">
+           Demo video1
+          </h2>
+          </div>
+          <div>
+            <video
+              src="https://yootheme.com/site/images/media/yootheme-pro.mp4"
+              loop
+              muted
+              uk-video="autoplay:inview"
+              />
+          </div>
+          <div>
+            <video
+              src="https://yootheme.com/site/images/media/yootheme-pro.mp4"
+              loop
+              muted
+              uk-video="autoplay:inview"
+              />
+          </div>
+        </div>
+        <div class="uk-flex uk-flex-center uk-margin-small">
+          <a class="uk-icon-button" href uk-slidenav-previous uk-slider-item="previous"></a>
+          <a class="uk-icon-button uk-margin-small-left" href uk-slidenav-next uk-slider-item="next"></a>
+        </div>
+      </div>
+    
 <!-- Teaser video-->
 <section class="hero teaser">
   <div class="container is-max-desktop">
@@ -290,12 +328,31 @@
       </video>
       <!-- TODO: Replace with your video description -->
       <h2 class="subtitle has-text-centered">
-       
+       Demo videos
       </h2>
     </div>
   </div>
 </section>
 <!-- End teaser video -->
+
+<!-- Youtube video -->
+<section class="hero is-small is-light">
+  <div class="hero-body">
+    <div class="container">
+      <!-- Paper video. -->
+      <h2 class="title is-3">Video Presentation</h2>
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">    
+          <div class="publication-video">
+            <!-- TODO: Replace with your YouTube video ID -->
+            <iframe src="https://www.youtube.com/embed/JkaxUblCGz0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End youtube video -->
 
 <!-- Paper abstract -->
 <section class="section hero is-light">
@@ -376,8 +433,7 @@
       <!-- Paper video. -->
       <h2 class="title is-3">Video Presentation</h2>
       <div class="columns is-centered has-text-centered">
-        <div class="column is-four-fifths">
-          
+        <div class="column is-four-fifths">    
           <div class="publication-video">
             <!-- TODO: Replace with your YouTube video ID -->
             <iframe src="https://www.youtube.com/embed/JkaxUblCGz0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
